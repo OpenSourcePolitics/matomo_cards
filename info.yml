@@ -1,0 +1,20 @@
+---
+query:
+  model:  # true/false
+  sql:  # put your sql request here
+  info:
+    filterables:
+      # add your filterables params following template below
+      # date: ## attribute type
+      #   attr: created_at ## attribute name
+      #   required: false ## mandatory or not ?
+    viz_settings:
+      # put the type of visualization you can have following this list :
+      # scalar, line, pie
+      # See example below
+      #
+      # scalar:
+      # line:
+      #   - day
+      #   - week
+      #   - month

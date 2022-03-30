@@ -1,0 +1,12 @@
+---
+name:  # Indicator name
+description:  # Main description of your indicator
+viz_settings:
+  # For each visualization, give its name and description if different than meta
+  # See example below
+
+  # scalar:
+  #   name: ## scalar name
+  # line:
+  #   name: ## line chart name
+  #   description: ## line chart description
