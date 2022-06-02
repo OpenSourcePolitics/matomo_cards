@@ -1,0 +1,35 @@
+---
+query:
+  model:  true
+  sql:  select 
+            nb_visits, 
+            nb_uniq_visitors,
+            nb_hits,
+            sum_time_spent,
+            exit_nb_uniq_visitors,
+            exit_nb_visits,
+            avg_time_on_page, 
+            bounce_rate, 
+            exit_rate,
+            url,
+            date(date),
+            entry_nb_uniq_visitors,
+            entry_nb_visits,
+            entry_bounce_count,
+            label,
+            case 
+                when label like '/processes/ep%'then 'Consultation publique'
+                when label like '/processes/vgt%' then 'Aménagement du territoire'
+                when label like '/processes/bp%' then 'Budget Participatif'
+                when label like '/assemblies/cq' then 'Je m''implique dans mon quartier !'
+                when label like '/assemblies/cc' then 'Conseil citoyen'
+                when label like '/initiatives/i-8' then 'Stop au gaspillage alimentaire'
+                when label like '/initiatives/i-7' then 'Du bio dans les cantines'
+                else 'Non répertorié'
+            end as participatory_space
+        from pages
+  info:
+    filterables:
+     
+    viz_settings:
+      
