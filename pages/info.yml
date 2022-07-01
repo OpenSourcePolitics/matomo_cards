@@ -1,0 +1,25 @@
+---
+query:
+  model:  true
+  sql:  select 
+            nb_visits, 
+            nb_uniq_visitors,
+            nb_hits,
+            sum_time_spent,
+            exit_nb_uniq_visitors,
+            exit_nb_visits,
+            avg_time_on_page, 
+            bounce_rate, 
+            exit_rate,
+            url,
+            date(date),
+            entry_nb_uniq_visitors,
+            entry_nb_visits,
+            entry_bounce_count,
+            label
+        from pages
+  info:
+    filterables:
+     
+    viz_settings:
+      
