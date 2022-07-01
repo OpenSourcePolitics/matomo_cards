@@ -16,17 +16,7 @@ query:
             entry_nb_uniq_visitors,
             entry_nb_visits,
             entry_bounce_count,
-            label,
-            case 
-                when label like '/processes/ep%'then 'Consultation publique'
-                when label like '/processes/vgt%' then 'Aménagement du territoire'
-                when label like '/processes/bp%' then 'Budget Participatif'
-                when label like '/assemblies/cq' then 'Je m''implique dans mon quartier !'
-                when label like '/assemblies/cc' then 'Conseil citoyen'
-                when label like '/initiatives/i-8' then 'Stop au gaspillage alimentaire'
-                when label like '/initiatives/i-7' then 'Du bio dans les cantines'
-                else 'Non répertorié'
-            end as participatory_space
+            label
         from pages
   info:
     filterables:
