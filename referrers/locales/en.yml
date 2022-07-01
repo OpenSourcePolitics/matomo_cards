@@ -1,7 +1,8 @@
 ---
 name:  Referrers
-description:  A referrer is a channel from which a visitor comes on a website. Referrers are categorized into different types, 
-              such as search engines, social networks, direct entry... Informations regarding visits linked to a referrer. 
+description:  > 
+  Informations regarding visits linked to a referrer. (A referrer is a channel from which a visitor comes on a website.
+  Referrers are categorized into different types, such as search engines, social networks, direct entry... )
 viz_settings:
   # For each visualization, give its name and description if different than meta
   # See example below
