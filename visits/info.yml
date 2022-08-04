@@ -1,4 +1,5 @@
 ---
+resource: visits
 query:
   model:  true
   sql:  select
@@ -25,6 +26,5 @@ query:
         from visits
   info:
     filterables:
-      
     viz_settings:
       
