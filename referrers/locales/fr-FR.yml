@@ -1,5 +1,5 @@
 ---
-name: Referrers
+name: Référents
 description: >
-  Informations regarding visits linked to a referrer. (A referrer is a channel from which a visitor comes on a website. Referrers are categorized into different types, such as search engines, social networks, direct entry... )
+  Informations concernant les visites liées à un référent (Un référent désigne un canal à partir duquel un visiteur vient sur un site Web. Les référents sont classés en différents types, tels que les moteurs de recherche, les réseaux sociaux, l'entrée directe...)
 viz_settings:
