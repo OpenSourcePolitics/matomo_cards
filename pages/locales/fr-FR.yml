@@ -1,4 +1,4 @@
 ---
 name: Pages
-description: "Informations regarding what happens on a page and its associated metrics : visits, time spent, exits, date, url, label."
+description: "Informations sur ce qui se passe sur une page et ses paramètres associés : visites, temps passé, sorties, date, url, étiquette."
 viz_settings:
