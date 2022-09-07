@@ -1,4 +1,4 @@
 ---
-name: Visits
-description: A visit is a person who comes to a website for the fist time or if they visit a page more than 30 minutes after their last page view, and all informations regarding this visit.
+name: Visites
+description: Une visite est l'action d'une personne qui vient sur un site Web pour la première fois ou si elle visite une page plus de 30 minutes après la dernière page vue, et toutes les informations concernant cette visite.
 viz_settings:
