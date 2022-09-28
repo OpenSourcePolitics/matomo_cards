@@ -9,15 +9,15 @@ meta:
     nb_uniq_visitors: Nombre de visiteurs uniques
     bounce_count: Nombre de rebonds
     bounce_rate: Taux de rebond
-    bounce_rate_new: Taux de rebond des nouveaux venus
-    sum_visit_length: Somme des visites
+    bounce_rate_new: Taux de rebond des nouveaux visiteurs
+    sum_visit_length: Somme de la durée des visites
     nb_visits_new: Nombre de nouvelles visites
     Referrers_visitorsFromSearchEngines: Nombre de visiteurs provenant des moteurs de recherche
     Referrers_visitorsFromSocialNetworks: Nombre de visiteurs provenant des réseaux sociaux
     Referrers_visitorsFromDirectEntry: Nombre de visiteurs provenant d'une entrée directe
     Referrers_visitorsFromWebsites: Nombre de visiteurs provenant de sites web
     Referrers_visitorsFromCampaigns: Nombre de visiteurs provenant de campagnes
-    Referrers_visitorsFromSearchEngines_percent: Pourcentage de visiteurs des moteurs de recherche
+    Referrers_visitorsFromSearchEngines_percent: Pourcentage de visiteurs provenant des moteurs de recherche
     Referrers_visitorsFromSocialNetworks_percent: Pourcentage de visiteurs provenant des réseaux sociaux
     Referrers_visitorsFromDirectEntry_percent: Pourcentage de visiteurs provenant d'une entrée directe
     Referrers_visitorsFromWebsites_percent: Pourcentage de visiteurs provenant de sites web
