@@ -5,21 +5,21 @@ meta:
   columns:
     index: Index
     date: Date
-    nb_visits: Number of visitors
-    nb_uniq_visitors: Number of unique visitors
-    bounce_count: Bounce count
-    bounce_rate: Bounce rate
-    bounce_rate_new: Bounce rate of newcomers
-    sum_visit_length: Sum of visits length
-    nb_visits_new: Number of new visits
-    Referrers_visitorsFromSearchEngines: Number of visitors from search engines
-    Referrers_visitorsFromSocialNetworks: Number of visitors from social networks
-    Referrers_visitorsFromDirectEntry: Number of visitors from direct entry
-    Referrers_visitorsFromWebsites: Number of visitors from websites
-    Referrers_visitorsFromCampaigns: Number of visitors from campains
-    Referrers_visitorsFromSearchEngines_percent: Percentage of visitors from search engines
-    Referrers_visitorsFromSocialNetworks_percent: Percentage of visitors from social networks
-    Referrers_visitorsFromDirectEntry_percent: Percentage of visitors from direct entry
-    Referrers_visitorsFromWebsites_percent: Percentage of visitors from websites
-    Referrers_visitorsFromCampaigns_percent: Percentage of visitors from campains
-    nb_downloads: Number of downloads
+    nb_visits: Nombre de visiteurs
+    nb_uniq_visitors: Nombre de visiteurs uniques
+    bounce_count: Nombre de rebonds
+    bounce_rate: Taux de rebond
+    bounce_rate_new: Taux de rebond des nouveaux venus
+    sum_visit_length: Somme des visites
+    nb_visits_new: Nombre de nouvelles visites
+    Referrers_visitorsFromSearchEngines: Nombre de visiteurs provenant des moteurs de recherche
+    Referrers_visitorsFromSocialNetworks: Nombre de visiteurs provenant des réseaux sociaux
+    Referrers_visitorsFromDirectEntry: Nombre de visiteurs provenant d'une entrée directe
+    Referrers_visitorsFromWebsites: Nombre de visiteurs provenant de sites web
+    Referrers_visitorsFromCampaigns: Nombre de visiteurs provenant de campagnes
+    Referrers_visitorsFromSearchEngines_percent: Pourcentage de visiteurs des moteurs de recherche
+    Referrers_visitorsFromSocialNetworks_percent: Pourcentage de visiteurs provenant des réseaux sociaux
+    Referrers_visitorsFromDirectEntry_percent: Pourcentage de visiteurs provenant d'une entrée directe
+    Referrers_visitorsFromWebsites_percent: Pourcentage de visiteurs provenant de sites web
+    Referrers_visitorsFromCampaigns_percent: Pourcentage de visiteurs provenant de campagnes
+    nb_downloads: Nombre de téléchargements
