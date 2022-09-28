@@ -1,4 +1,25 @@
 ---
 name: Visits
 description: A visit is a person who comes to a website for the fist time or if they visit a page more than 30 minutes after their last page view, and all informations regarding this visit.
-viz_settings:
+meta:
+  columns:
+    index: Index
+    date: Date
+    nb_visits: Number of visitors
+    nb_uniq_visitors: Number of unique visitors
+    bounce_count: Bounce count
+    bounce_rate: Bounce rate
+    bounce_rate_new: Bounce rate of newcomers
+    sum_visit_length: Sum of visits length
+    nb_visits_new: Number of new visits
+    Referrers_visitorsFromSearchEngines: Number of visitors from search engines
+    Referrers_visitorsFromSocialNetworks: Number of visitors from social networks
+    Referrers_visitorsFromDirectEntry: Number of visitors from direct entry
+    Referrers_visitorsFromWebsites: Number of visitors from websites
+    Referrers_visitorsFromCampaigns: Number of visitors from campains
+    Referrers_visitorsFromSearchEngines_percent: Percentage of visitors from search engines
+    Referrers_visitorsFromSocialNetworks_percent: Percentage of visitors from social networks
+    Referrers_visitorsFromDirectEntry_percent: Percentage of visitors from direct entry
+    Referrers_visitorsFromWebsites_percent: Percentage of visitors from websites
+    Referrers_visitorsFromCampaigns_percent: Percentage of visitors from campains
+    nb_downloads: Number of downloads
