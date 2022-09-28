@@ -4,18 +4,18 @@ description: "Informations sur ce qui se passe sur une page et ses paramètres a
 viz_settings:
 meta:
   columns:
-    nb_visits: Number of visits
-    nb_uniq_visitors: Number of unique visitors
-    nb_hits: Number of hits
-    sum_time_spent: Sum of time spent
-    exit_nb_uniq_visitors: Number of exiting unique visitors
-    exit_nb_visits: Number of exiting visitors
-    avg_time_on_page: Average time on page
-    bounce_rate: Bounce rate
-    exit_rate: Exit rate
+    nb_visits: Nombre de visites
+    nb_uniq_visitors: Nombre de visiteurs uniques
+    nb_hits: Nombre de hits
+    sum_time_spent: Somme du temps passé
+    exit_nb_uniq_visitors: Nombre de visiteurs uniques sortants
+    exit_nb_visits: Nombre de visiteurs sortants
+    avg_time_on_page: Temps moyen sur la page
+    bounce_rate: Taux de rebond
+    exit_rate: Taux de sortie
     url: URL
     date: Date
-    entry_nb_uniq_visitors: Number of unique visitors entering
-    entry_nb_visits: Number of visitors entering
-    entry_bounce_count: Number of bouncing count at entry
+    entry_nb_uniq_visitors: Nombre de visiteurs uniques entrants
+    entry_nb_visits: Nombre de visiteurs entrants
+    entry_bounce_count: Nombre de rebonds à l'entrée
     label: Label
