@@ -1,5 +1,15 @@
 ---
 name: Référents
 description: >
-  Informations concernant les visites liées à un référent (Un référent désigne un canal à partir duquel un visiteur vient sur un site Web. Les référents sont classés en différents types, tels que les moteurs de recherche, les réseaux sociaux, l'entrée directe...)
-viz_settings:
+  Informations regarding visits linked to a referrer. (A referrer is a channel from which a visitor comes on a website. Referrers are categorized into different types, such as search engines, social networks, direct entry...)
+meta:
+  columns:
+    label: Label
+    nb_uniq_visitors: Number of unique visitors
+    nb_visits: Number of visits
+    nb_actions: Number of actions
+    sum_visit_length: Sum of visit length
+    bounce_count: Bounce count
+    nb_visits_converted: Number of visits converted
+    sub_type: Referral way
+    date: Date
