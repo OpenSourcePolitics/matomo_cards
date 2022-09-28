@@ -13,13 +13,10 @@ query:
             bounce_rate, 
             exit_rate,
             url,
-            date(date),
+            date(date) as date,
             entry_nb_uniq_visitors,
             entry_nb_visits,
             entry_bounce_count,
             label
         from pages
   info:
-    filterables:
-    viz_settings:
-      
