@@ -11,6 +11,5 @@ meta:
     nb_actions: Number of actions
     sum_visit_length: Sum of visit length
     bounce_count: Bounce count
-    nb_visits_converted: Number of visits converted
     sub_type: Referral way
     date: Date
