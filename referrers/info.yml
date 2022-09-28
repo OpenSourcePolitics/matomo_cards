@@ -11,10 +11,7 @@ query:
             bounce_count,
             nb_visits_converted,
             sub_type, 
-            date(date)
+            date(date) as date
        from referrers
-       where sub_type is null
+       where sub_type is not null
   info:
-    filterables:
-    viz_settings:
-      
