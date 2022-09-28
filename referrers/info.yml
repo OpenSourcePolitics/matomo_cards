@@ -9,7 +9,6 @@ query:
             nb_actions,
             sum_visit_length,
             bounce_count,
-            nb_visits_converted,
             sub_type, 
             date(date) as date
        from referrers
