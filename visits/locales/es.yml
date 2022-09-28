@@ -1,0 +1,4 @@
+---
+name: Visits
+description: A visit is a person who comes to a website for the fist time or if they visit a page more than 30 minutes after their last page view, and all informations regarding this visit.
+viz_settings:
