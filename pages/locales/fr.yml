@@ -2,3 +2,20 @@
 name: Pages
 description: "Informations sur ce qui se passe sur une page et ses paramètres associés : visites, temps passé, sorties, date, url, étiquette."
 viz_settings:
+meta:
+  columns:
+    nb_visits: Number of visits
+    nb_uniq_visitors: Number of unique visitors
+    nb_hits: Number of hits
+    sum_time_spent: Sum of time spent
+    exit_nb_uniq_visitors: Number of exiting unique visitors
+    exit_nb_visits: Number of exiting visitors
+    avg_time_on_page: Average time on page
+    bounce_rate: Bounce rate
+    exit_rate: Exit rate
+    url: URL
+    date: Date
+    entry_nb_uniq_visitors: Number of unique visitors entering
+    entry_nb_visits: Number of visitors entering
+    entry_bounce_count: Number of bouncing count at entry
+    label: Label
