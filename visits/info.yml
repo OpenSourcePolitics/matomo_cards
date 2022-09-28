@@ -25,6 +25,3 @@ query:
             nb_downloads
         from visits
   info:
-    filterables:
-    viz_settings:
-      
