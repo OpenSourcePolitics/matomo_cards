@@ -1,0 +1,17 @@
+---
+resource: geographic_location
+query:
+  model:  true
+  sql:  |
+        select 
+            nb_visits,
+            country_name,
+            country,
+            region_name,
+            region,
+            city_name,
+            date, 
+            lat, 
+            long
+        from users_city
+  info:
