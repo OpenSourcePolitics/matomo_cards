@@ -1,14 +1,14 @@
 ---
-name: Geographic location
-description: Gives information about visits origin such as country, region, and city names per day.
+name: Localisation géographique
+description: Gives information about visits origin such as country, region, and city per day.
 meta:
   columns:
-    nb_visits: Number of visits
-    country_name: Country name
-    country: Country code
-    region_name: Region name
-    region: Region code
-    city_name: City name
+    nb_visits: Nombre de visites
+    country_name: Nom du pays
+    country: Code du pays
+    region_name: Nom de la région
+    region: Code de la région
+    city_name: Nom de la ville
     date: Date
     lat: Latitude
     long: Longitude
