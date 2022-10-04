@@ -1,6 +1,6 @@
 ---
 name:  Geographic location
-description:  Gives information about visits origin such as country, region, and city names per day. 
+description:  Gives information about visits origin such as country, region, and city per day. 
 meta:
   columns:
     nb_visits: Number of visits 
