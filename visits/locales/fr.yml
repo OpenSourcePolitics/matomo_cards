@@ -1,0 +1,25 @@
+---
+name: Visites
+description: Une visite est l'action d'une personne qui vient sur un site Web pour la première fois ou si elle visite une page plus de 30 minutes après la dernière page vue, et toutes les informations concernant cette visite.
+meta:
+  columns:
+    index: Index
+    date: Date
+    nb_visits: Nombre de visiteurs
+    nb_uniq_visitors: Nombre de visiteurs uniques
+    bounce_count: Nombre de rebonds
+    bounce_rate: Taux de rebond
+    bounce_rate_new: Taux de rebond des nouveaux visiteurs
+    sum_visit_length: Somme de la durée des visites
+    nb_visits_new: Nombre de nouvelles visites
+    Referrers_visitorsFromSearchEngines: Nombre de visiteurs provenant des moteurs de recherche
+    Referrers_visitorsFromSocialNetworks: Nombre de visiteurs provenant des réseaux sociaux
+    Referrers_visitorsFromDirectEntry: Nombre de visiteurs provenant d'une entrée directe
+    Referrers_visitorsFromWebsites: Nombre de visiteurs provenant de sites web
+    Referrers_visitorsFromCampaigns: Nombre de visiteurs provenant de campagnes
+    Referrers_visitorsFromSearchEngines_percent: Pourcentage de visiteurs provenant des moteurs de recherche
+    Referrers_visitorsFromSocialNetworks_percent: Pourcentage de visiteurs provenant des réseaux sociaux
+    Referrers_visitorsFromDirectEntry_percent: Pourcentage de visiteurs provenant d'une entrée directe
+    Referrers_visitorsFromWebsites_percent: Pourcentage de visiteurs provenant de sites web
+    Referrers_visitorsFromCampaigns_percent: Pourcentage de visiteurs provenant de campagnes
+    nb_downloads: Nombre de téléchargements

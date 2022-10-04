@@ -1,0 +1,21 @@
+---
+name: Pages
+description: "Informations sur ce qui se passe sur une page et ses paramètres associés : visites, temps passé, sorties, date, url, étiquette."
+viz_settings:
+meta:
+  columns:
+    nb_visits: Nombre de visites
+    nb_uniq_visitors: Nombre de visiteurs uniques
+    nb_hits: Nombre de hits
+    sum_time_spent: Somme du temps passé
+    exit_nb_uniq_visitors: Nombre de visiteurs uniques sortants
+    exit_nb_visits: Nombre de visiteurs sortants
+    avg_time_on_page: Temps moyen sur la page
+    bounce_rate: Taux de rebond
+    exit_rate: Taux de sortie
+    url: URL
+    date: Date
+    entry_nb_uniq_visitors: Nombre de visiteurs uniques entrants
+    entry_nb_visits: Nombre de visiteurs entrants
+    entry_bounce_count: Nombre de rebonds à l'entrée
+    label: Label

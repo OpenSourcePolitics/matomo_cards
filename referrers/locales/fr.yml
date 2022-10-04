@@ -1,0 +1,14 @@
+---
+name: Référents
+description: >
+  Informations concernant les visites liées à un référent (un référent désigne un canal à partir duquel un visiteur vient sur un site web. Les référents sont classés en différents types, tels que les moteurs de recherche, les réseaux sociaux, l'entrée directe...)
+meta:
+  columns:
+    label: Label
+    nb_uniq_visitors: Nombre de visiteurs uniques
+    nb_visits: Nombre de visites
+    nb_actions: Nombre d'actions
+    sum_visit_length: Somme de la durée des visites
+    bounce_count: Nombre de rebonds
+    sub_type: Canal d'acquisition général
+    date: Date
