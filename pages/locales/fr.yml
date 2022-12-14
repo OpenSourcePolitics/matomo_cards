@@ -1,21 +1,51 @@
 ---
 name: Pages
-description: "Informations sur ce qui se passe sur une page et ses paramètres associés : visites, temps passé, sorties, date, url, étiquette."
+description: 'Informations sur ce qui se passe sur une page et ses paramètres associés : visites, temps passé, sorties, date, url, étiquette.'
 viz_settings:
 meta:
   columns:
-    nb_visits: Nombre de visites
-    nb_uniq_visitors: Nombre de visiteurs uniques
-    nb_hits: Nombre de hits
-    sum_time_spent: Somme du temps passé
-    exit_nb_uniq_visitors: Nombre de visiteurs uniques sortants
-    exit_nb_visits: Nombre de visiteurs sortants
-    avg_time_on_page: Temps moyen sur la page
-    bounce_rate: Taux de rebond
-    exit_rate: Taux de sortie
-    url: URL
-    date: Date
-    entry_nb_uniq_visitors: Nombre de visiteurs uniques entrants
-    entry_nb_visits: Nombre de visiteurs entrants
-    entry_bounce_count: Nombre de rebonds à l'entrée
-    label: Label
+    nb_visits:
+      name: Number of visits
+      description: Number of visits
+    nb_uniq_visitors:
+      name: Number of unique visitors
+      description: Number of unique visitors
+    nb_hits:
+      name: Number of hits
+      description: Number of hits
+    sum_time_spent:
+      name: Sum of time spent
+      description: Sum of time spent
+    exit_nb_uniq_visitors:
+      name: Number of exiting unique visitors
+      description: Number of exiting unique visitors
+    exit_nb_visits:
+      name: Number of exiting visitors
+      description: Number of exiting visitors
+    avg_time_on_page:
+      name: Average time on page
+      description: Average time on page
+    bounce_rate:
+      name: Bounce rate
+      description: Bounce rate
+    exit_rate:
+      name: Exit rate
+      description: Exit rate
+    url:
+      name: URL
+      description: URL
+    date:
+      name: Date
+      description: Date
+    entry_nb_uniq_visitors:
+      name: Number of unique visitors entering
+      description: Number of unique visitors entering
+    entry_nb_visits:
+      name: Number of visitors entering
+      description: Number of visitors entering
+    entry_bounce_count:
+      name: Number of bouncing count at entry
+      description: Number of bouncing count at entry
+    label:
+      name: Label
+      description: Label
