@@ -1,21 +1,52 @@
 ---
 name: Pages
-description: "Informations sur ce qui se passe sur une page et ses paramètres associés : visites, temps passé, sorties, date, url, étiquette."
+description: 'Informations sur ce qui se passe sur une page et ses paramètres associés
+  : visites, temps passé, sorties, date, url, étiquette.'
 viz_settings:
 meta:
   columns:
-    nb_visits: Nombre de visites
-    nb_uniq_visitors: Nombre de visiteurs uniques
-    nb_hits: Nombre de hits
-    sum_time_spent: Somme du temps passé
-    exit_nb_uniq_visitors: Nombre de visiteurs uniques sortants
-    exit_nb_visits: Nombre de visiteurs sortants
-    avg_time_on_page: Temps moyen sur la page
-    bounce_rate: Taux de rebond
-    exit_rate: Taux de sortie
-    url: URL
-    date: Date
-    entry_nb_uniq_visitors: Nombre de visiteurs uniques entrants
-    entry_nb_visits: Nombre de visiteurs entrants
-    entry_bounce_count: Nombre de rebonds à l'entrée
-    label: Label
+    nb_visits:
+      name: Nombre de visites
+      description: Nombre de visites
+    nb_uniq_visitors:
+      name: Nombre de visiteurs uniques
+      description: Nombre de visiteurs uniques
+    nb_hits:
+      name: Nombre de hits
+      description: Nombre de hits
+    sum_time_spent:
+      name: Somme du temps passé
+      description: Somme du temps passé
+    exit_nb_uniq_visitors:
+      name: Nombre de visiteurs uniques sortants
+      description: Nombre de visiteurs uniques sortants
+    exit_nb_visits:
+      name: Nombre de visiteurs sortants
+      description: Nombre de visiteurs sortants
+    avg_time_on_page:
+      name: Temps moyen sur la page
+      description: Temps moyen sur la page
+    bounce_rate:
+      name: Taux de rebond
+      description: Taux de rebond
+    exit_rate:
+      name: Taux de sortie
+      description: Taux de sortie
+    url:
+      name: URL
+      description: URL
+    date:
+      name: Date
+      description: Date
+    entry_nb_uniq_visitors:
+      name: Nombre de visiteurs uniques entrants
+      description: Nombre de visiteurs uniques entrants
+    entry_nb_visits:
+      name: Nombre de visiteurs entrants
+      description: Nombre de visiteurs entrants
+    entry_bounce_count:
+      name: Nombre de rebonds à l'entrée
+      description: Nombre de rebonds à l'entrée
+    label:
+      name: Label
+      description: Label

@@ -1,25 +1,67 @@
 ---
 name: Visites
-description: Une visite est l'action d'une personne qui vient sur un site Web pour la première fois ou si elle visite une page plus de 30 minutes après la dernière page vue, et toutes les informations concernant cette visite.
+description: Une visite est l'action d'une personne qui vient sur un site Web pour
+  la première fois ou si elle visite une page plus de 30 minutes après la dernière
+  page vue, et toutes les informations concernant cette visite.
 meta:
   columns:
-    index: Index
-    date: Date
-    nb_visits: Nombre de visiteurs
-    nb_uniq_visitors: Nombre de visiteurs uniques
-    bounce_count: Nombre de rebonds
-    bounce_rate: Taux de rebond
-    bounce_rate_new: Taux de rebond des nouveaux visiteurs
-    sum_visit_length: Somme de la durée des visites
-    nb_visits_new: Nombre de nouvelles visites
-    Referrers_visitorsFromSearchEngines: Nombre de visiteurs provenant des moteurs de recherche
-    Referrers_visitorsFromSocialNetworks: Nombre de visiteurs provenant des réseaux sociaux
-    Referrers_visitorsFromDirectEntry: Nombre de visiteurs provenant d'une entrée directe
-    Referrers_visitorsFromWebsites: Nombre de visiteurs provenant de sites web
-    Referrers_visitorsFromCampaigns: Nombre de visiteurs provenant de campagnes
-    Referrers_visitorsFromSearchEngines_percent: Pourcentage de visiteurs provenant des moteurs de recherche
-    Referrers_visitorsFromSocialNetworks_percent: Pourcentage de visiteurs provenant des réseaux sociaux
-    Referrers_visitorsFromDirectEntry_percent: Pourcentage de visiteurs provenant d'une entrée directe
-    Referrers_visitorsFromWebsites_percent: Pourcentage de visiteurs provenant de sites web
-    Referrers_visitorsFromCampaigns_percent: Pourcentage de visiteurs provenant de campagnes
-    nb_downloads: Nombre de téléchargements
+    index:
+      name: Index
+      description: Index
+    date:
+      name: Date
+      description: Date
+    nb_visits:
+      name: Nombre de visiteurs
+      description: Nombre de visiteurs
+    nb_uniq_visitors:
+      name: Nombre de visiteurs uniques
+      description: Nombre de visiteurs uniques
+    bounce_count:
+      name: Nombre de rebonds
+      description: Nombre de rebonds
+    bounce_rate:
+      name: Taux de rebond
+      description: Taux de rebond
+    bounce_rate_new:
+      name: Taux de rebond des nouveaux visiteurs
+      description: Taux de rebond des nouveaux visiteurs
+    sum_visit_length:
+      name: Somme de la durée des visites
+      description: Somme de la durée des visites
+    nb_visits_new:
+      name: Nombre de nouvelles visites
+      description: Nombre de nouvelles visites
+    Referrers_visitorsFromSearchEngines:
+      name: Nombre de visiteurs provenant des moteurs de recherche
+      description: Nombre de visiteurs provenant des moteurs de recherche
+    Referrers_visitorsFromSocialNetworks:
+      name: Nombre de visiteurs provenant des réseaux sociaux
+      description: Nombre de visiteurs provenant des réseaux sociaux
+    Referrers_visitorsFromDirectEntry:
+      name: Nombre de visiteurs provenant d'une entrée directe
+      description: Nombre de visiteurs provenant d'une entrée directe
+    Referrers_visitorsFromWebsites:
+      name: Nombre de visiteurs provenant de sites web
+      description: Nombre de visiteurs provenant de sites web
+    Referrers_visitorsFromCampaigns:
+      name: Nombre de visiteurs provenant de campagnes
+      description: Nombre de visiteurs provenant de campagnes
+    Referrers_visitorsFromSearchEngines_percent:
+      name: Pourcentage de visiteurs provenant des moteurs de recherche
+      description: Pourcentage de visiteurs provenant des moteurs de recherche
+    Referrers_visitorsFromSocialNetworks_percent:
+      name: Pourcentage de visiteurs provenant des réseaux sociaux
+      description: Pourcentage de visiteurs provenant des réseaux sociaux
+    Referrers_visitorsFromDirectEntry_percent:
+      name: Pourcentage de visiteurs provenant d'une entrée directe
+      description: Pourcentage de visiteurs provenant d'une entrée directe
+    Referrers_visitorsFromWebsites_percent:
+      name: Pourcentage de visiteurs provenant de sites web
+      description: Pourcentage de visiteurs provenant de sites web
+    Referrers_visitorsFromCampaigns_percent:
+      name: Pourcentage de visiteurs provenant de campagnes
+      description: Pourcentage de visiteurs provenant de campagnes
+    nb_downloads:
+      name: Nombre de téléchargements
+      description: Nombre de téléchargements
