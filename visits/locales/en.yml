@@ -33,43 +33,65 @@ meta:
       total number of visitors
     bounce_rate_new:
       name: Bounce rate of newcomers
-      description: Bounce rate of newcomers
+      description: > 
+      Bounce rate i.e ratio of visitors that bounces on the platform versus the 
+      total number of new visitors
     sum_visit_length:
       name: Sum of visits length
-      description: Sum of visits length
+      description: The sum of each visit’s elapsed time
     nb_visits_new:
       name: Number of new visits
-      description: Number of new visits
+      description: The number of new visits
     Referrers_visitorsFromSearchEngines:
       name: Number of visitors from search engines
-      description: Number of visitors from search engines
+      description: >
+      If a visitor comes to your website for the first time from a search engine or if they visit a page more 
+      than 30 minutes after their last page view
     Referrers_visitorsFromSocialNetworks:
       name: Number of visitors from social networks
-      description: Number of visitors from social networks
+      description: > 
+      If a visitor comes to your website for the first time from a social network or if they visit a page more 
+      than 30 minutes after their last page view
     Referrers_visitorsFromDirectEntry:
       name: Number of visitors from direct entry
-      description: Number of visitors from direct entry
+      description: > 
+      If a visitor comes to your website for the first time from the website url directly or if they visit a page more 
+      than 30 minutes after their last page view
     Referrers_visitorsFromWebsites:
       name: Number of visitors from websites
-      description: Number of visitors from websites
+      description: > 
+      If a visitor comes to your website for the first time from another website or if they visit a page more 
+      than 30 minutes after their last page view
     Referrers_visitorsFromCampaigns:
       name: Number of visitors from campains
-      description: Number of visitors from campains
+      description: > 
+      If a visitor comes to your website for the first time from a campain or if they visit a page more 
+      than 30 minutes after their last page view
     Referrers_visitorsFromSearchEngines_percent:
       name: Percentage of visitors from search engines
-      description: Percentage of visitors from search engines
+      description: > 
+      Percentage of first-time visitors coming to the website from a search engine and stayed more 
+      than 30 minutes after their last page view
     Referrers_visitorsFromSocialNetworks_percent:
       name: Percentage of visitors from social networks
-      description: Percentage of visitors from social networks
+      description: > 
+      Percentage of first-time visitors coming to the website from a social network and stayed more 
+      than 30 minutes after their last page view
     Referrers_visitorsFromDirectEntry_percent:
       name: Percentage of visitors from direct entry
-      description: Percentage of visitors from direct entry
+      description: > 
+      Percentage of first-time visitors coming to the website from a the website's url directly and stayed more 
+      than 30 minutes after their last page view
     Referrers_visitorsFromWebsites_percent:
       name: Percentage of visitors from websites
-      description: Percentage of visitors from websites
+      description: > 
+      Percentage of first-time visitors coming to the website from a search engine and stayed more
+      than 30 minutes after their last page view
     Referrers_visitorsFromCampaigns_percent:
       name: Percentage of visitors from campains
-      description: Percentage of visitors from campains
+      description: > 
+      Percentage of first-time visitors coming to the website from a campain and stayed more 
+      than 30 minutes after their last page view
     nb_downloads:
       name: Number of downloads
-      description: Number of downloads
+      description: Number of times the link was clicked
