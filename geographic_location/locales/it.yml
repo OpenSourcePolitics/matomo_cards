@@ -3,12 +3,30 @@ name: Geographic location
 description: Gives information about visits origin such as country, region, and city per day.
 meta:
   columns:
-    nb_visits: Number of visits
-    country_name: Country name
-    country: Country code
-    region_name: Region name
-    region: Region code
-    city_name: City name
-    date: Date
-    lat: Latitude
-    long: Longitude
+    nb_visits:
+      name: Number of visits
+      description: Number of visits
+    country_name:
+      name: Country name
+      description: Country name
+    country:
+      name: Country code
+      description: Country code
+    region_name:
+      name: Region name
+      description: Region name
+    region:
+      name: Region code
+      description: Region code
+    city_name:
+      name: City name
+      description: City name
+    date:
+      name: Date
+      description: Date
+    lat:
+      name: Latitude
+      description: Latitude
+    long:
+      name: Longitude
+      description: Longitude
