@@ -5,51 +5,51 @@ viz_settings:
 meta:
   columns:
     nb_visits:
-      name: Number of visits
+      name: Nombre de visites
       description: >
-        If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a visit
+        Si un visiteur vient sur votre site web pour la première fois ou s'il visite une page plus de 30 minutes après sa dernière vue, cela sera enregistré comme une nouvelle visite
     nb_uniq_visitors:
-      name: Number of unique visitors
+      name: Nombre de visiteurs uniques
       description: >
-        The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day
+        Le nombre de visiteurs non dupliqués venant sur votre site web. Chaque utilisateur n'est compté qu'une seule fois, même s'il visite le site plusieurs fois par jour
     nb_hits:
-      name: Number of hits
-      description: The number of times this page was visited
+      name: Nombre de hits
+      description: Nombre de fois où cette page a été visitée
     sum_time_spent:
-      name: Sum of time spent
-      description: The total time spent by all visitors on the website in a day on this page
+      name: Somme du temps passé
+      description: Le temps total passé par tous les visiteurs sur le site en une journée sur cette page
     exit_nb_uniq_visitors:
-      name: Number of exiting unique visitors
-      description: Number of exiting unique visitors
+      name: Nombre de visiteurs uniques sortants
+      description: Nombre de visiteurs uniques sortants
     exit_nb_visits:
-      name: Number of exiting visitors
+      name: Nombre de visiteurs sortants
       description: >
-        Number of visitors that have visited for the first time or if they have visited a page more than 30 minutes after their last page vew, and have left after their visit
+        Nombre de visiteurs qui ont visité pour la première fois ou s'ils ont visité une page plus de 30 minutes après la consultation de leur dernière page, et sont partis après leur visite
     avg_time_on_page:
-      name: Average time on page
-      description: The average number of time spent on a page per visit in seconds
+      name: Temps moyen sur la page
+      description: Le temps moyen passé sur une page par visite en secondes
     bounce_rate:
-      name: Bounce rate
-      description: The percentage of visits that started on this page and left the website straight away
+      name: Taux de rebond
+      description: Le pourcentage de visites qui ont commencé sur cette page et qui ont quitté le site tout de suite
     exit_rate:
-      name: Exit rate
-      description: The percentage of visits that have left your website or app after this interaction
+      name: Taux de sortie
+      description: Le pourcentage de visites qui ont quitté votre site web ou votre application après cette interaction
     url:
       name: URL
-      description: Url of the page
+      description: Url de la page
     date:
       name: Date
       description: Date
     entry_nb_uniq_visitors:
-      name: Number of unique visitors entering
-      description: Number of unduplicated visitors that started their visiting journey on this page
+      name: Nombre de visiteurs uniques entrants
+      description: Nombre de visiteurs non dupliqués qui ont commencé leur trajet de visite sur cette page
     entry_nb_visits:
-      name: Number of visitors entering
-      description: Number of visits that started on this page
+      name: Nombre de visiteurs entrants
+      description: Nombre de visites qui ont commencé sur cette page
     entry_bounce_count:
-      name: Number of bouncing count at entry
+      name: Nombre de rebonds à l'entrée
       description: >
-        Number of visits that started and ended on this page. This means that the visitor left the website after viewing only this page
+        Nombre de visites qui ont commencé et se sont terminées sur cette page. Cela signifie que le visiteur a quitté le site après avoir consulté uniquement cette page
     label:
       name: Label
-      description: Label of the page
+      description: Libellé de la page
