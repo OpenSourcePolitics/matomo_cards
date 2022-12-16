@@ -1,30 +1,30 @@
 ---
 name: Localisation géographique
-description: Gives information about visits origin such as country, region, and city per day
+description: Donne des informations sur l'origine des visites telles que le pays, la région et la ville par jour
 meta:
   columns:
     nb_visits:
-      name: Number of visits
+      name: Nombre de visites
       description: >
-        If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit
+        Si un visiteur vient sur votre site web pour la première fois ou s'il visite une page plus de 30 minutes après sa dernière vue, cela sera enregistré comme une nouvelle visite
     country_name:
-      name: Country name
-      description: The name of the country where the visit has been located
+      name: Nom du pays
+      description: Le nom du pays où la visite a été localisée
     country:
-      name: Country code
-      description: The code of the country where the visit has have been located
+      name: Code du pays
+      description: Le nom du pays où la visite a été localisée
     region_name:
-      name: Region name
-      description: The name of the region where the visit has have been located
+      name: Nom de la région
+      description: Le nom de la région où la visite a été localisée
     region:
-      name: Region code
-      description: The code of the region where the visit has have been located
+      name: Code de la région
+      description: Le code de la région où la visite a été localisée
     city_name:
-      name: City name
-      description: The name of the city where the visit has have been located
+      name: Nom de la ville
+      description: Le nom de la ville où la visite a été localisée
     date:
       name: Date
-      description: The date of the visit
+      description: La date de la visite
     lat:
       name: Latitude
       description: Latitude of the visit's location
