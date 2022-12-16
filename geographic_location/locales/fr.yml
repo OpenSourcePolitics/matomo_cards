@@ -27,7 +27,7 @@ meta:
       description: La date de la visite
     lat:
       name: Latitude
-      description: Latitude of the visit's location
+      description: Latitude de la position de la visite
     long:
       name: Longitude
-      description: Longitude of the visit's location
+      description: Longitude de la position de la visite
