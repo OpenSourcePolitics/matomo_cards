@@ -7,27 +7,27 @@ meta:
       name: Label
       description: Label
     nb_uniq_visitors:
-      name: Number of unique visitors
+      name: Nombre de visiteurs uniques
       description: >
-        The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day
+        Le nombre de visiteurs non dupliqués venant sur votre site web. Chaque utilisateur n'est compté qu'une seule fois, même s'il visite le site plusieurs fois par jour
     nb_visits:
-      name: Number of visits
+      name: Nombre de visites
       description: >
-        If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a visit
+        Si un visiteur vient sur votre site web pour la première fois ou s'il visite une page plus de 30 minutes après sa dernière vue, cela sera enregistré comme une visite
     nb_actions:
-      name: Number of actions
+      name: Nombre d'actions
       description: >
-        The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks
+        Le nombre d'actions effectuées par vos visiteurs. Les actions peuvent être des pages vues, des recherches internes sur le site, des téléchargements ou des liens sortants
     sum_visit_length:
-      name: Sum of visit length
-      description: The sum of each visit’s elapsed time
+      name: Somme de la durée des visites
+      description: La somme du temps écoulé de chaque visite
     bounce_count:
-      name: Bounce count
+      name: Nombre de rebonds
       description: >
-        Number of visits that started and ended on this page. This means that the visitor left the website after viewing only this page
+        Nombre de visites qui ont commencé et se sont terminées sur cette page. Cela signifie que le visiteur a quitté le site après avoir consulté uniquement cette page
     sub_type:
-      name: Referrer's category
-      description: Category to which the referrer belong
+      name: Catégorie du référent
+      description: Catégorie à laquelle appartient le référent
     date:
       name: Date
       description: Date
