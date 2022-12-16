@@ -12,69 +12,69 @@ meta:
     nb_visits:
       name: Nombre de visiteurs
       description: >
-        If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit
+        Si un visiteur vient sur votre site web pour la première fois ou s'il visite une page plus de 30 minutes après sa dernière vue, ce sera enregistré comme une nouvelle visite
     nb_uniq_visitors:
-      name: Number of unique visitors
+      name: Nombre de visiteurs uniques
       description: >
-        The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day
+        Le nombre de visiteurs non dupliqués venant sur votre site web. Chaque utilisateur n'est compté qu'une seule fois, même s'il visite le site plusieurs fois par jour
     bounce_count:
-      name: Bounce count
+      name: Nombre de rebonds
       description: >
-        Number of visits that only lasted one page. One bounce is equivalent to a visitor left the website after viewing only this page
+        Nombre de visites qui n'ont duré qu'une seule page. Un rebond est équivalent à un visiteur a quitté le site après avoir consulté uniquement cette page
     bounce_rate:
-      name: Bounce rate
+      name: Taux de rebond
       description: >
-        Bounce rate i.e ratio of visitors that bounces on the platform versus the total number of visitors
+        Taux de rebond i.e des visiteurs qui rebondissent sur la plateforme par rapport au nombre total de visiteurs
     bounce_rate_new:
-      name: Bounce rate of newcomers
+      name: Taux de rebond des nouveaux visiteurs
       description: >
-        Bounce rate i.e ratio of visitors that bounces on the platform versus the total number of new visitors
+        Taux de rebond i.e ratio des visiteurs qui rebondissent sur la plateforme versus le nombre total de nouveaux visiteurs
     sum_visit_length:
-      name: Sum of visits length
-      description: The sum of each visit’s elapsed time
+      name: Somme de la durée des visites
+      description: La somme du temps écoulé de chaque visite
     nb_visits_new:
-      name: Number of new visits
-      description: The number of new visits
+      name: Nombre de nouvelles visites
+      description: Nombre de nouvelles visites
     Referrers_visitorsFromSearchEngines:
-      name: Number of visitors from search engines
+      name: Nombre de visiteurs provenant des moteurs de recherche
       description: >
-        If a visitor comes to your website for the first time from a search engine or if they visit a page more than 30 minutes after their last page view
+        Si un visiteur vient sur votre site web pour la première fois à partir d'un moteur de recherche ou s'il visite une page plus de 30 minutes après sa dernière page
     Referrers_visitorsFromSocialNetworks:
-      name: Number of visitors from social networks
+      name: Nombre de visiteurs provenant des réseaux sociaux
       description: >
-        If a visitor comes to your website for the first time from a social network or if they visit a page more than 30 minutes after their last page view
+        Si un visiteur vient sur votre site web pour la première fois à partir d'un réseau social ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromDirectEntry:
-      name: Number of visitors from direct entry
+      name: Nombre de visiteurs provenant d'une entrée directe
       description: >
-        If a visitor comes to your website for the first time from the website url directly or if they visit a page more than 30 minutes after their last page view
+        Si un visiteur vient sur votre site web pour la première fois à partir d'un moteur de recherche ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromWebsites:
-      name: Number of visitors from websites
+      name: Nombre de visiteurs provenant de sites web
       description: >
-        If a visitor comes to your website for the first time from another website or if they visit a page more than 30 minutes after their last page view
+        Si un visiteur vient sur votre site web pour la première fois à partir d'un autre site web ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromCampaigns:
-      name: Number of visitors from campains
+      name: Pourcentage de visiteurs provenant de campagnes
       description: >
-        If a visitor comes to your website for the first time from a campain or if they visit a page more than 30 minutes after their last page view
+        Si un visiteur vient sur votre site web pour la première fois depuis un campagne ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromSearchEngines_percent:
-      name: Percentage of visitors from search engines
+      name: Pourcentage de visiteurs provenant des moteurs de recherche
       description: >
-        Percentage of first-time visitors coming to the website from a search engine and stayed more than 30 minutes after their last page view
+        Pourcentage de primo visiteurs qui viennent sur le site à partir d'un moteur de recherche et qui sont restés plus de 30 minutes après leur dernière vue
     Referrers_visitorsFromSocialNetworks_percent:
-      name: Percentage of visitors from social networks
+      name: Pourcentage de visiteurs provenant des réseaux sociaux
       description: >
-        Percentage of first-time visitors coming to the website from a social network and stayed more than 30 minutes after their last page view
+        Pourcentage de primo visiteurs qui viennent sur le site à partir d'un réseau social et qui sont restés plus de 30 minutes après leur dernière vue
     Referrers_visitorsFromDirectEntry_percent:
-      name: Percentage of visitors from direct entry
+      name: Pourcentage de visiteurs provenant d'une entrée directe
       description: >
-        Percentage of first-time visitors coming to the website from a the website's url directly and stayed more than 30 minutes after their last page view
+        Pourcentage de primo visiteurs qui viennent sur le site à partir de l'URL d'un site web et sont restés plus de 30 minutes après leur dernière vue
     Referrers_visitorsFromWebsites_percent:
-      name: Percentage of visitors from websites
+      name: Pourcentage de visiteurs provenant de sites web
       description: >
-        Percentage of first-time visitors coming to the website from a search engine and stayed more than 30 minutes after their last page view
+        Pourcentage de primo visiteurs qui viennent sur le site à partir d'un moteur de recherche et qui sont restés plus de 30 minutes après leur dernière vue
     Referrers_visitorsFromCampaigns_percent:
-      name: Percentage of visitors from campains
+      name: Pourcentage de visiteurs provenant de campagnes
       description: >
-        Percentage of first-time visitors coming to the website from a campain and stayed more than 30 minutes after their last page view
+        Pourcentage de primo visiteurs qui viennent sur le site à partir de campagnes et qui sont restés plus de 30 minutes après leur dernière vue
     nb_downloads:
-      name: Number of downloads
-      description: Number of times the link was clicked
+      name: Nombre de téléchargements
+      description: Nombre de fois où le lien a été cliqué
