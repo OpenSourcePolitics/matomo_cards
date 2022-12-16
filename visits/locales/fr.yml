@@ -10,7 +10,7 @@ meta:
       name: Date
       description: Date
     nb_visits:
-      name: Number of visitors
+      name: Nombre de visiteurs
       description: >
         If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit
     nb_uniq_visitors:
