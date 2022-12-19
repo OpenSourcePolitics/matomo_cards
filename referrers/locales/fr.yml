@@ -4,8 +4,8 @@ description: Informations concernant les visites liées à un référent (un ré
 meta:
   columns:
     label:
-      name: Label
-      description: Label
+      name: Libellé
+      description: Libellé du référent
     nb_uniq_visitors:
       name: Nombre de visiteurs uniques
       description: >
