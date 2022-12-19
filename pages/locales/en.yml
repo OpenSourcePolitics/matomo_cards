@@ -1,21 +1,55 @@
 ---
-name:  Pages
-description: "Informations regarding what happens on a page and its associated metrics : visits, time spent, exits, date, url, label."
+name: Pages
+description: 'Informations regarding what happens on a page and its associated metrics : visits, time spent, exits, date, url, label.'
 viz_settings:
 meta:
   columns:
-    nb_visits: Number of visits
-    nb_uniq_visitors: Number of unique visitors
-    nb_hits: Number of hits
-    sum_time_spent: Sum of time spent
-    exit_nb_uniq_visitors: Number of exiting unique visitors
-    exit_nb_visits: Number of exiting visitors
-    avg_time_on_page: Average time on page
-    bounce_rate: Bounce rate
-    exit_rate: Exit rate
-    url: URL
-    date: Date
-    entry_nb_uniq_visitors: Number of unique visitors entering
-    entry_nb_visits: Number of visitors entering
-    entry_bounce_count: Number of bouncing count at entry
-    label: Label
+    nb_visits:
+      name: Number of visits
+      description: >
+        If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a visit
+    nb_uniq_visitors:
+      name: Number of unique visitors
+      description: >
+        The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day
+    nb_hits:
+      name: Number of hits
+      description: The number of times this page was visited
+    sum_time_spent:
+      name: Sum of time spent on the website
+      description: The total time spent by all visitors on the website in a day on this page
+    exit_nb_uniq_visitors:
+      name: Number of exiting unique visitors
+      description: Number of exiting unique visitors
+    exit_nb_visits:
+      name: Number of exiting visitors
+      description: >
+        Number of visitors that have visited for the first time or if they have visited a page more than 30 minutes after their last page vew, and have left after their visit
+    avg_time_on_page:
+      name: Average time on page
+      description: The average number of time spent on a page per visit in seconds
+    bounce_rate:
+      name: Bounce rate
+      description: The percentage of visits that started on this page and left the website straight away
+    exit_rate:
+      name: Exit rate
+      description: The percentage of visits that have left your website or app after this interaction
+    url:
+      name: URL
+      description: Url of the page
+    date:
+      name: Date
+      description: Date
+    entry_nb_uniq_visitors:
+      name: Number of unique visitors entering
+      description: Number of unduplicated visitors that started their visiting journey on this page
+    entry_nb_visits:
+      name: Number of visitors entering
+      description: Number of visits that started on this page
+    entry_bounce_count:
+      name: Number of bouncing count at entry
+      description: >
+        Number of visits that started and ended on this page. This means that the visitor left the website after viewing only this page
+    label:
+      name: Label
+      description: Label of the page
