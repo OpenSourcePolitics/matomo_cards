@@ -57,4 +57,4 @@ meta:
         Si un visiteur vient sur votre site web pour la première fois depuis une campagne ou s'il visite une page plus de 30 minutes après sa dernière vue
     nb_downloads:
       name: Nombre de téléchargements
-      description: Nombre de téléchargements
+      description: Nombre de fois où le lien a été cliqué
