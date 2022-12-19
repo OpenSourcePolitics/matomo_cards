@@ -55,26 +55,6 @@ meta:
       name: Pourcentage de visiteurs provenant de campagnes
       description: >
         Si un visiteur vient sur votre site web pour la première fois depuis une campagne ou s'il visite une page plus de 30 minutes après sa dernière vue
-    Referrers_visitorsFromSearchEngines_percent:
-      name: Pourcentage de visiteurs provenant des moteurs de recherche
-      description: >
-        Pourcentage de visiteurs provenant des moteurs de recherche
-    Referrers_visitorsFromSocialNetworks_percent:
-      name: Pourcentage de visiteurs provenant des réseaux sociaux
-      description: >
-        Pourcentage de visiteurs provenant des réseaux sociaux
-    Referrers_visitorsFromDirectEntry_percent:
-      name: Pourcentage de visiteurs provenant d'une entrée directe
-      description: >
-        Pourcentage de visiteurs provenant d'une entrée directe
-    Referrers_visitorsFromWebsites_percent:
-      name: Pourcentage de visiteurs provenant de sites web
-      description: >
-        Pourcentage de visiteurs provenant de sites web
-    Referrers_visitorsFromCampaigns_percent:
-      name: Pourcentage de visiteurs provenant de campagnes
-      description: >
-        Pourcentage de visiteurs provenant de campagnes
     nb_downloads:
       name: Nombre de téléchargements
       description: Nombre de téléchargements
