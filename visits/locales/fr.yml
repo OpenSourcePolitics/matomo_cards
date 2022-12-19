@@ -8,7 +8,7 @@ meta:
       description: Index
     date:
       name: Date
-      description: Date
+      description: Date des visites
     nb_visits:
       name: Nombre de visiteurs
       description: >
