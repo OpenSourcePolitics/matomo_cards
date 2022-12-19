@@ -16,7 +16,7 @@ meta:
       name: Number of hits
       description: The number of times this page was visited
     sum_time_spent:
-      name: Sum of time spent
+      name: Sum of time spent on the website
       description: The total time spent by all visitors on the website in a day on this page
     exit_nb_uniq_visitors:
       name: Number of exiting unique visitors
