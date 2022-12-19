@@ -2,7 +2,6 @@
 name: Pages
 description: 'Informations regarding what happens on a page and its associated metrics
   : visits, time spent, exits, date, url, label.'
-viz_settings:
 meta:
   columns:
     nb_visits:
