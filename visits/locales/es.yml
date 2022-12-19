@@ -3,23 +3,78 @@ name: Visits
 description: A visit is a person who comes to a website for the fist time or if they visit a page more than 30 minutes after their last page view, and all informations regarding this visit.
 meta:
   columns:
-    index: Index
-    date: Date
-    nb_visits: Number of visitors
-    nb_uniq_visitors: Number of unique visitors
-    bounce_count: Bounce count
-    bounce_rate: Bounce rate
-    bounce_rate_new: Bounce rate of newcomers
-    sum_visit_length: Sum of visits length
-    nb_visits_new: Number of new visits
-    Referrers_visitorsFromSearchEngines: Number of visitors from search engines
-    Referrers_visitorsFromSocialNetworks: Number of visitors from social networks
-    Referrers_visitorsFromDirectEntry: Number of visitors from direct entry
-    Referrers_visitorsFromWebsites: Number of visitors from websites
-    Referrers_visitorsFromCampaigns: Number of visitors from campains
-    Referrers_visitorsFromSearchEngines_percent: Percentage of visitors from search engines
-    Referrers_visitorsFromSocialNetworks_percent: Percentage of visitors from social networks
-    Referrers_visitorsFromDirectEntry_percent: Percentage of visitors from direct entry
-    Referrers_visitorsFromWebsites_percent: Percentage of visitors from websites
-    Referrers_visitorsFromCampaigns_percent: Percentage of visitors from campains
-    nb_downloads: Number of downloads
+    index:
+      name: Index
+      description: Index
+    date:
+      name: Date
+      description: Date
+    nb_visits:
+      name: Number of visitors
+      description: >
+        Number of visitors
+    nb_uniq_visitors:
+      name: Number of unique visitors
+      description: >
+        Number of unique visitors
+    bounce_count:
+      name: Bounce count
+      description: >
+        Bounce count
+    bounce_rate:
+      name: Bounce rate
+      description: >
+        Bounce rate
+    bounce_rate_new:
+      name: Bounce rate of newcomers
+      description: >
+        Bounce rate of newcomers
+    sum_visit_length:
+      name: Sum of visits length
+      description: Sum of visits length
+    nb_visits_new:
+      name: Number of new visits
+      description: Number of new visits
+    Referrers_visitorsFromSearchEngines:
+      name: Number of visitors from search engines
+      description: >
+        Number of visitors from search engines
+    Referrers_visitorsFromSocialNetworks:
+      name: Number of visitors from social networks
+      description: >
+        Number of visitors from social networks
+    Referrers_visitorsFromDirectEntry:
+      name: Number of visitors from direct entry
+      description: >
+        Number of visitors from direct entry
+    Referrers_visitorsFromWebsites:
+      name: Number of visitors from websites
+      description: >
+        Number of visitors from websites
+    Referrers_visitorsFromCampaigns:
+      name: Number of visitors from campains
+      description: >
+        Number of visitors from campains
+    Referrers_visitorsFromSearchEngines_percent:
+      name: Percentage of visitors from search engines
+      description: >
+        Percentage of visitors from search engines
+    Referrers_visitorsFromSocialNetworks_percent:
+      name: Percentage of visitors from social networks
+      description: >
+        Percentage of visitors from social networks
+    Referrers_visitorsFromDirectEntry_percent:
+      name: Percentage of visitors from direct entry
+      description: >
+        Percentage of visitors from direct entry
+    Referrers_visitorsFromWebsites_percent:
+      name: Percentage of visitors from websites
+      description: >
+        Percentage of visitors from websites
+    Referrers_visitorsFromCampaigns_percent:
+      name: Percentage of visitors from campains
+      description: >
+        Percentage of visitors from campains
+    nb_downloads:
+      name: Number of downloads
+      description: Number of downloads

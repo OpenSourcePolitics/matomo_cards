@@ -1,21 +1,55 @@
 ---
 name: Pages
-description: "Informations regarding what happens on a page and its associated metrics : visits, time spent, exits, date, url, label."
+description: 'Informations regarding what happens on a page and its associated metrics : visits, time spent, exits, date, url, label.'
 viz_settings:
 meta:
   columns:
-    nb_visits: Number of visits
-    nb_uniq_visitors: Number of unique visitors
-    nb_hits: Number of hits
-    sum_time_spent: Sum of time spent
-    exit_nb_uniq_visitors: Number of exiting unique visitors
-    exit_nb_visits: Number of exiting visitors
-    avg_time_on_page: Average time on page
-    bounce_rate: Bounce rate
-    exit_rate: Exit rate
-    url: URL
-    date: Date
-    entry_nb_uniq_visitors: Number of unique visitors entering
-    entry_nb_visits: Number of visitors entering
-    entry_bounce_count: Number of bouncing count at entry
-    label: Label
+    nb_visits:
+      name: Number of visits
+      description: >
+        Number of visits
+    nb_uniq_visitors:
+      name: Number of unique visitors
+      description: >
+        Number of unique visitors
+    nb_hits:
+      name: Number of hits
+      description: Number of hits
+    sum_time_spent:
+      name: Sum of time spent
+      description: Sum of time spent
+    exit_nb_uniq_visitors:
+      name: Number of exiting unique visitors
+      description: Number of exiting unique visitors
+    exit_nb_visits:
+      name: Number of exiting visitors
+      description: >
+        Number of exiting visitors
+    avg_time_on_page:
+      name: Average time on page
+      description: Average time on page
+    bounce_rate:
+      name: Bounce rate
+      description: Bounce rate
+    exit_rate:
+      name: Exit rate
+      description: Exit rate
+    url:
+      name: URL
+      description: URL
+    date:
+      name: Date
+      description: Date
+    entry_nb_uniq_visitors:
+      name: Number of unique visitors entering
+      description: Number of unique visitors entering
+    entry_nb_visits:
+      name: Number of visitors entering
+      description: Number of visitors entering
+    entry_bounce_count:
+      name: Number of bouncing count at entry
+      description: >
+        Number of bouncing count at entry
+    label:
+      name: Label
+      description: Label

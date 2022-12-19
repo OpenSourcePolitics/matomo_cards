@@ -1,21 +1,55 @@
 ---
 name: Pages
-description: "Informations sur ce qui se passe sur une page et ses paramètres associés : visites, temps passé, sorties, date, url, étiquette."
+description: 'Informations sur ce qui se passe sur une page et ses paramètres associés : visites, temps passé, sorties, date, url, étiquette.'
 viz_settings:
 meta:
   columns:
-    nb_visits: Number of visits
-    nb_uniq_visitors: Number of unique visitors
-    nb_hits: Number of hits
-    sum_time_spent: Sum of time spent
-    exit_nb_uniq_visitors: Number of exiting unique visitors
-    exit_nb_visits: Number of exiting visitors
-    avg_time_on_page: Average time on page
-    bounce_rate: Bounce rate
-    exit_rate: Exit rate
-    url: URL
-    date: Date
-    entry_nb_uniq_visitors: Number of unique visitors entering
-    entry_nb_visits: Number of visitors entering
-    entry_bounce_count: Number of bouncing count at entry
-    label: Label
+    nb_visits:
+      name: Nombre de visites
+      description: >
+        Si un visiteur vient sur votre site web pour la première fois ou s'il visite une page plus de 30 minutes après sa dernière page vue, cela sera enregistré comme une nouvelle visite
+    nb_uniq_visitors:
+      name: Nombre de visiteurs uniques
+      description: >
+        Le nombre de visiteurs non dupliqués venant sur votre site web. Chaque utilisateur n'est compté qu'une seule fois, même s'il visite le site plusieurs fois par jour
+    nb_hits:
+      name: Nombre de hits
+      description: Nombre de fois où cette page a été visitée
+    sum_time_spent:
+      name: Somme du temps passé
+      description: Somme du temps passé
+    exit_nb_uniq_visitors:
+      name: Nombre de visiteurs uniques sortants
+      description: Nombre de visiteurs uniques sortants. Un visiteur sortant est un visiteur étant immédiatement reparti de la plateforme après y être venu, sans avoir interagi.
+    exit_nb_visits:
+      name: Nombre de visiteurs sortants
+      description: >
+        Nombre de visiteurs sortants
+    avg_time_on_page:
+      name: Temps moyen sur la page
+      description: Le temps moyen passé sur une page par visite en secondes
+    bounce_rate:
+      name: Taux de rebond
+      description: Le pourcentage de visites qui ont commencé sur cette page et qui ont quitté le site immédiatement après
+    exit_rate:
+      name: Taux de sortie
+      description: Taux de sortie
+    url:
+      name: URL
+      description: URL de la page
+    date:
+      name: Date
+      description: Date
+    entry_nb_uniq_visitors:
+      name: Nombre de visiteurs uniques entrants
+      description: Nombre de visiteurs uniques entrants
+    entry_nb_visits:
+      name: Nombre de visiteurs entrants
+      description: Nombre de visites qui ont commencé sur cette page
+    entry_bounce_count:
+      name: Nombre de rebonds à l'entrée
+      description: >
+        Nombre de visites qui ont commencé et se sont terminées sur cette page. Cela signifie que le visiteur a quitté le site après avoir consulté uniquement cette page
+    label:
+      name: Libellé
+      description: Libellé de la page
