@@ -58,23 +58,23 @@ meta:
     Referrers_visitorsFromSearchEngines_percent:
       name: Pourcentage de visiteurs provenant des moteurs de recherche
       description: >
-        Pourcentage de primo visiteurs qui viennent sur le site à partir d'un moteur de recherche et qui sont restés plus de 30 minutes après leur dernière vue
+        Pourcentage de visiteurs provenant des moteurs de recherche
     Referrers_visitorsFromSocialNetworks_percent:
       name: Pourcentage de visiteurs provenant des réseaux sociaux
       description: >
-        Pourcentage de primo visiteurs qui viennent sur le site à partir d'un réseau social et qui sont restés plus de 30 minutes après leur dernière vue
+        Pourcentage de visiteurs provenant des réseaux sociaux
     Referrers_visitorsFromDirectEntry_percent:
       name: Pourcentage de visiteurs provenant d'une entrée directe
       description: >
-        Pourcentage de primo visiteurs qui viennent sur le site à partir de l'URL d'un site web et sont restés plus de 30 minutes après leur dernière vue
+        Pourcentage de visiteurs provenant d'une entrée directe
     Referrers_visitorsFromWebsites_percent:
       name: Pourcentage de visiteurs provenant de sites web
       description: >
-        Pourcentage de primo visiteurs qui viennent sur le site à partir d'un moteur de recherche et qui sont restés plus de 30 minutes après leur dernière vue
+        Pourcentage de visiteurs provenant de sites web
     Referrers_visitorsFromCampaigns_percent:
       name: Pourcentage de visiteurs provenant de campagnes
       description: >
-        Pourcentage de primo visiteurs qui viennent sur le site à partir de campagnes et qui sont restés plus de 30 minutes après leur dernière vue
+        Pourcentage de visiteurs provenant de campagnes
     nb_downloads:
       name: Nombre de téléchargements
-      description: Nombre de fois où le lien a été cliqué
+      description: Nombre de téléchargements
