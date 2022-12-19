@@ -5,7 +5,7 @@ meta:
   columns:
     label:
       name: Label
-      description: Label
+      description: Label of the referrer
     nb_uniq_visitors:
       name: Number of unique visitors
       description: >
