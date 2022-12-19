@@ -46,7 +46,7 @@ meta:
     Referrers_visitorsFromDirectEntry:
       name: Nombre de visiteurs provenant d'une entrée directe
       description: >
-        Si un visiteur vient sur votre site web pour la première fois à partir d'un moteur de recherche ou s'il visite une page plus de 30 minutes après sa dernière vue
+        Si un visiteur vient sur votre site web pour la première fois directement via l'URL ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromWebsites:
       name: Nombre de visiteurs provenant de sites web
       description: >
@@ -54,7 +54,7 @@ meta:
     Referrers_visitorsFromCampaigns:
       name: Pourcentage de visiteurs provenant de campagnes
       description: >
-        Si un visiteur vient sur votre site web pour la première fois depuis un campagne ou s'il visite une page plus de 30 minutes après sa dernière vue
+        Si un visiteur vient sur votre site web pour la première fois depuis une campagne ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromSearchEngines_percent:
       name: Pourcentage de visiteurs provenant des moteurs de recherche
       description: >
