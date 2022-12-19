@@ -7,49 +7,49 @@ meta:
     nb_visits:
       name: Number of visits
       description: >
-        If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a visit
+        Number of visits
     nb_uniq_visitors:
       name: Number of unique visitors
       description: >
-        The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day
+        Number of unique visitors
     nb_hits:
       name: Number of hits
-      description: The number of times this page was visited
+      description: Number of hits
     sum_time_spent:
-      name: Sum of time spent on the website
-      description: The total time spent by all visitors on the website in a day on this page
+      name: Sum of time spent
+      description: Sum of time spent
     exit_nb_uniq_visitors:
       name: Number of exiting unique visitors
       description: Number of exiting unique visitors
     exit_nb_visits:
       name: Number of exiting visitors
       description: >
-        Number of visitors that have visited for the first time or if they have visited a page more than 30 minutes after their last page vew, and have left after their visit
+        Number of exiting visitors
     avg_time_on_page:
       name: Average time on page
-      description: The average number of time spent on a page per visit in seconds
+      description: Average time on page
     bounce_rate:
       name: Bounce rate
-      description: The percentage of visits that started on this page and left the website straight away
+      description: Bounce rate
     exit_rate:
       name: Exit rate
-      description: The percentage of visits that have left your website or app after this interaction
+      description: Exit rate
     url:
       name: URL
-      description: Url of the page
+      description: URL
     date:
       name: Date
       description: Date
     entry_nb_uniq_visitors:
       name: Number of unique visitors entering
-      description: Number of unduplicated visitors that started their visiting journey on this page
+      description: Number of unique visitors entering
     entry_nb_visits:
       name: Number of visitors entering
-      description: Number of visits that started on this page
+      description: Number of visitors entering
     entry_bounce_count:
       name: Number of bouncing count at entry
       description: >
-        Number of visits that started and ended on this page. This means that the visitor left the website after viewing only this page
+        Number of bouncing count at entry
     label:
       name: Label
-      description: Label of the page
+      description: Label
