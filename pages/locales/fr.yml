@@ -17,14 +17,14 @@ meta:
       description: Nombre de fois où cette page a été visitée
     sum_time_spent:
       name: Somme du temps passé
-      description: Le temps total passé par tous les visiteurs sur le site en une journée sur cette page
+      description: Somme du temps passé
     exit_nb_uniq_visitors:
       name: Nombre de visiteurs uniques sortants
       description: Nombre de visiteurs uniques sortants. Un visiteur sortant est un visiteur étant immédiatement reparti de la plateforme après y être venu, sans avoir interagi.
     exit_nb_visits:
       name: Nombre de visiteurs sortants
       description: >
-        Nombre de visiteurs qui ont visité pour la première fois ou s'ils ont visité une page plus de 30 minutes après la consultation de leur dernière page, et sont partis après leur visite
+        Nombre de visiteurs sortants
     avg_time_on_page:
       name: Temps moyen sur la page
       description: Le temps moyen passé sur une page par visite en secondes
@@ -33,7 +33,7 @@ meta:
       description: Le pourcentage de visites qui ont commencé sur cette page et qui ont quitté le site immédiatement après
     exit_rate:
       name: Taux de sortie
-      description: Le pourcentage de visites qui ont quitté votre site web ou votre application après cette interaction
+      description: Taux de sortie
     url:
       name: URL
       description: URL de la page
@@ -42,7 +42,7 @@ meta:
       description: Date
     entry_nb_uniq_visitors:
       name: Nombre de visiteurs uniques entrants
-      description: Nombre de visiteurs non dupliqués qui ont commencé leur trajet de visite sur cette page
+      description: Nombre de visiteurs uniques entrants
     entry_nb_visits:
       name: Nombre de visiteurs entrants
       description: Nombre de visites qui ont commencé sur cette page
