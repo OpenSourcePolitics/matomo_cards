@@ -16,11 +16,11 @@ meta:
       name: Number of hits
       description: Number of hits
     sum_time_spent:
-      name: Sum of time spent
+      name: Sum of time spent on the page
       description: Sum of time spent
     exit_nb_uniq_visitors:
       name: Number of exiting unique visitors
-      description: Number of exiting unique visitors
+      description: Number of exiting unique visitors. An exiting visitor is a visitor that went immediately out of the page after arriving, without interaction
     exit_nb_visits:
       name: Number of exiting visitors
       description: >
