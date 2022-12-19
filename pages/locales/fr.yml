@@ -20,7 +20,7 @@ meta:
       description: Le temps total passé par tous les visiteurs sur le site en une journée sur cette page
     exit_nb_uniq_visitors:
       name: Nombre de visiteurs uniques sortants
-      description: Nombre de visiteurs uniques sortants
+      description: Nombre de visiteurs uniques sortants. Un visiteur sortant est un visiteur étant immédiatement reparti de la plateforme après y être venu, sans avoir interagi.
     exit_nb_visits:
       name: Nombre de visiteurs sortants
       description: >
@@ -30,13 +30,13 @@ meta:
       description: Le temps moyen passé sur une page par visite en secondes
     bounce_rate:
       name: Taux de rebond
-      description: Le pourcentage de visites qui ont commencé sur cette page et qui ont quitté le site tout de suite
+      description: Le pourcentage de visites qui ont commencé sur cette page et qui ont quitté le site immédiatement après
     exit_rate:
       name: Taux de sortie
       description: Le pourcentage de visites qui ont quitté votre site web ou votre application après cette interaction
     url:
       name: URL
-      description: Url de la page
+      description: URL de la page
     date:
       name: Date
       description: Date
@@ -51,5 +51,5 @@ meta:
       description: >
         Nombre de visites qui ont commencé et se sont terminées sur cette page. Cela signifie que le visiteur a quitté le site après avoir consulté uniquement cette page
     label:
-      name: Label
+      name: Libellé
       description: Libellé de la page
