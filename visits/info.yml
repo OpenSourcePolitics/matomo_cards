@@ -16,12 +16,7 @@ query:
             "Referrers_visitorsFromSocialNetworks",
             "Referrers_visitorsFromDirectEntry",
             "Referrers_visitorsFromWebsites",
-            "Referrers_visitorsFromCampaigns",
-            "Referrers_visitorsFromSearchEngines_percent",
-            "Referrers_visitorsFromSocialNetworks_percent",
-            "Referrers_visitorsFromDirectEntry_percent",
-            "Referrers_visitorsFromWebsites_percent",
-            "Referrers_visitorsFromCampaigns_percent",
+            "Referrers_visitorsFromCampaigns"
             nb_downloads
         from visits
   info:
