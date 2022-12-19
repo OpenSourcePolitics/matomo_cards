@@ -13,7 +13,7 @@ meta:
     nb_visits:
       name: Nombre de visites
       description: >
-        Nombre de visites
+        Si un visiteur vient sur votre site web pour la première fois ou s'il visite une page plus de 30 minutes après sa dernière vue, cela sera enregistré comme une visite
     nb_actions:
       name: Nombre d'actions
       description: >
