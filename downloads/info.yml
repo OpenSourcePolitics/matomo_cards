@@ -1,0 +1,13 @@
+---
+resource: downloads
+query:
+  model:  true
+  sql:  |
+    select
+        REGEXP_REPLACE(label, '.*/uploads/decidim/attachment/file/[0-9]*/', '') as label,
+        nb_visits,
+        nb_hits,
+        url,
+        date
+    from matomo.downloads
+  info:
