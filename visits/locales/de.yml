@@ -55,26 +55,6 @@ meta:
       name: Number of visitors from campains
       description: >
         Number of visitors from campains
-    Referrers_visitorsFromSearchEngines_percent:
-      name: Percentage of visitors from search engines
-      description: >
-        Percentage of visitors from search engines
-    Referrers_visitorsFromSocialNetworks_percent:
-      name: Percentage of visitors from social networks
-      description: >
-        Percentage of visitors from social networks
-    Referrers_visitorsFromDirectEntry_percent:
-      name: Percentage of visitors from direct entry
-      description: >
-        Percentage of visitors from direct entry
-    Referrers_visitorsFromWebsites_percent:
-      name: Percentage of visitors from websites
-      description: >
-        Percentage of visitors from websites
-    Referrers_visitorsFromCampaigns_percent:
-      name: Percentage of visitors from campains
-      description: >
-        Percentage of visitors from campains
     nb_downloads:
       name: Number of downloads
       description: Number of downloads
