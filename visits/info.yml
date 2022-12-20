@@ -2,21 +2,22 @@
 resource: visits
 query:
   model:  true
-  sql:  select
-            index,
-            date,
-            nb_visits,
-            nb_uniq_visitors,
-            bounce_count,
-            bounce_rate, 
-            bounce_rate_new, 
-            sum_visit_length, 
-            nb_visits_new, 
-            "Referrers_visitorsFromSearchEngines",
-            "Referrers_visitorsFromSocialNetworks",
-            "Referrers_visitorsFromDirectEntry",
-            "Referrers_visitorsFromWebsites",
-            "Referrers_visitorsFromCampaigns"
-            nb_downloads
-        from visits
+  sql:  |
+    select
+        index,
+        date,
+        nb_visits,
+        nb_uniq_visitors,
+        bounce_count,
+        bounce_rate, 
+        bounce_rate_new, 
+        sum_visit_length, 
+        nb_visits_new, 
+        Referrers_visitorsFromSearchEngines,
+        Referrers_visitorsFromSocialNetworks,
+        Referrers_visitorsFromDirectEntry,
+        Referrers_visitorsFromWebsites,
+        Referrers_visitorsFromCampaigns,
+        nb_downloads
+    from matomo.visits
   info:
