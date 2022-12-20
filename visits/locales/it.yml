@@ -3,23 +3,58 @@ name: Visits
 description: A visit is a person who comes to a website for the fist time or if they visit a page more than 30 minutes after their last page view, and all informations regarding this visit.
 meta:
   columns:
-    index: Index
-    date: Date
-    nb_visits: Number of visitors
-    nb_uniq_visitors: Number of unique visitors
-    bounce_count: Bounce count
-    bounce_rate: Bounce rate
-    bounce_rate_new: Bounce rate of newcomers
-    sum_visit_length: Sum of visits length
-    nb_visits_new: Number of new visits
-    Referrers_visitorsFromSearchEngines: Number of visitors from search engines
-    Referrers_visitorsFromSocialNetworks: Number of visitors from social networks
-    Referrers_visitorsFromDirectEntry: Number of visitors from direct entry
-    Referrers_visitorsFromWebsites: Number of visitors from websites
-    Referrers_visitorsFromCampaigns: Number of visitors from campains
-    Referrers_visitorsFromSearchEngines_percent: Percentage of visitors from search engines
-    Referrers_visitorsFromSocialNetworks_percent: Percentage of visitors from social networks
-    Referrers_visitorsFromDirectEntry_percent: Percentage of visitors from direct entry
-    Referrers_visitorsFromWebsites_percent: Percentage of visitors from websites
-    Referrers_visitorsFromCampaigns_percent: Percentage of visitors from campains
-    nb_downloads: Number of downloads
+    index:
+      name: Index
+      description: Index
+    date:
+      name: Date
+      description: Date
+    nb_visits:
+      name: Number of visitors
+      description: >
+        If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit
+    nb_uniq_visitors:
+      name: Number of unique visitors
+      description: >
+        The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day
+    bounce_count:
+      name: Bounce count
+      description: >
+        Number of visits that only lasted one page. One bounce is equivalent to a visitor left the website after viewing only this page
+    bounce_rate:
+      name: Bounce rate
+      description: >
+        Bounce rate i.e ratio of visitors that bounces on the platform versus the total number of visitors
+    bounce_rate_new:
+      name: Bounce rate of newcomers
+      description: >
+        Bounce rate i.e ratio of visitors that bounces on the platform versus the total number of new visitors
+    sum_visit_length:
+      name: Sum of visits length
+      description: The sum of each visit’s elapsed time
+    nb_visits_new:
+      name: Number of new visits
+      description: The number of new visits
+    Referrers_visitorsFromSearchEngines:
+      name: Number of visitors from search engines
+      description: >
+        If a visitor comes to your website for the first time from a search engine or if they visit a page more than 30 minutes after their last page view
+    Referrers_visitorsFromSocialNetworks:
+      name: Number of visitors from social networks
+      description: >
+        If a visitor comes to your website for the first time from a social network or if they visit a page more than 30 minutes after their last page view
+    Referrers_visitorsFromDirectEntry:
+      name: Number of visitors from direct entry
+      description: >
+        If a visitor comes to your website for the first time from the website url directly or if they visit a page more than 30 minutes after their last page view
+    Referrers_visitorsFromWebsites:
+      name: Number of visitors from websites
+      description: >
+        If a visitor comes to your website for the first time from another website or if they visit a page more than 30 minutes after their last page view
+    Referrers_visitorsFromCampaigns:
+      name: Number of visitors from campains
+      description: >
+        If a visitor comes to your website for the first time from a campain or if they visit a page more than 30 minutes after their last page view
+    nb_downloads:
+      name: Number of downloads
+      description: Number of times the link was clicked

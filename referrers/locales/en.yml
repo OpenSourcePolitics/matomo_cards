@@ -1,36 +1,30 @@
 ---
 name: Referrers
-description: Informations regarding visits linked to a referrer. (A referrer is a
-  channel from which a visitor comes on a website. Referrers are categorized into
-  different types, such as search engines, social networks, direct entry...)
+description: Informations regarding visits linked to a referrer. (A referrer is a channel from which a visitor comes on a website. Referrers are categorized into different types, such as search engines, social networks, direct entry...)
 meta:
   columns:
     label:
       name: Label
-      description: Label
+      description: Label of the referrer
     nb_uniq_visitors:
       name: Number of unique visitors
-      description: > 
-        The number of unduplicated visitors coming to your website. 
-        Every user is only counted once, even if they visit the website multiple times a day
+      description: >
+        The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day
     nb_visits:
       name: Number of visits
-      description: > 
-        If a visitor comes to your website for the first time or if they visit a page more 
-        than 30 minutes after their last page view, this will be recorded as a visit
+      description: >
+        If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a visit
     nb_actions:
       name: Number of actions
-      description: > 
-        The number of actions performed by your visitors. 
-        Actions can be page views, internal site searches, downloads or outlinks
+      description: >
+        The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks
     sum_visit_length:
       name: Sum of visit length
       description: The sum of each visit’s elapsed time
     bounce_count:
       name: Bounce count
-      description: > 
-        Number of visits that started and ended on this page. 
-        This means that the visitor left the website after viewing only this page
+      description: >
+        Number of visits that started and ended on this page. This means that the visitor left the website after viewing only this page
     sub_type:
       name: Referrer's category
       description: Category to which the referrer belong

@@ -1,28 +1,30 @@
 ---
 name: Pages
-description: 'Informations regarding what happens on a page and its associated metrics
-  : visits, time spent, exits, date, url, label.'
+description: 'Informations regarding what happens on a page and its associated metrics : visits, time spent, exits, date, url, label.'
 viz_settings:
 meta:
   columns:
     nb_visits:
       name: Number of visits
-      description: Number of visits
+      description: >
+        Number of visits
     nb_uniq_visitors:
       name: Number of unique visitors
-      description: Number of unique visitors
+      description: >
+        Number of unique visitors
     nb_hits:
       name: Number of hits
       description: Number of hits
     sum_time_spent:
-      name: Sum of time spent
+      name: Sum of time spent on the page
       description: Sum of time spent
     exit_nb_uniq_visitors:
       name: Number of exiting unique visitors
-      description: Number of exiting unique visitors
+      description: Number of exiting unique visitors. An exiting visitor is a visitor that went immediately out of the page after arriving, without interaction
     exit_nb_visits:
       name: Number of exiting visitors
-      description: Number of exiting visitors
+      description: >
+        Number of exiting visitors
     avg_time_on_page:
       name: Average time on page
       description: Average time on page
@@ -46,7 +48,8 @@ meta:
       description: Number of visitors entering
     entry_bounce_count:
       name: Number of bouncing count at entry
-      description: Number of bouncing count at entry
+      description: >
+        Number of bouncing count at entry
     label:
       name: Label
       description: Label

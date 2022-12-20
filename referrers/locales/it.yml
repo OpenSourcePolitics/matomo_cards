@@ -1,28 +1,30 @@
 ---
 name: Referrers
-description: Informations regarding visits linked to a referrer. (A referrer is a
-  channel from which a visitor comes on a website. Referrers are categorized into
-  different types, such as search engines, social networks, direct entry...)
+description: Informations regarding visits linked to a referrer. (A referrer is a channel from which a visitor comes on a website. Referrers are categorized into different types, such as search engines, social networks, direct entry...)
 meta:
   columns:
     label:
       name: Label
-      description: Label
+      description: Label of the referrer
     nb_uniq_visitors:
       name: Number of unique visitors
-      description: Number of unique visitors
+      description: >
+        Number of unique visitors
     nb_visits:
       name: Number of visits
-      description: Number of visits
+      description: >
+        Number of visits
     nb_actions:
       name: Number of actions
-      description: Number of actions
+      description: >
+        Number of actions
     sum_visit_length:
       name: Sum of visit length
       description: Sum of visit length
     bounce_count:
       name: Bounce count
-      description: Bounce count
+      description: >
+        Bounce count
     sub_type:
       name: Referral way
       description: Referral way

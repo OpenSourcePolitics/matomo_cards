@@ -1,8 +1,6 @@
 ---
 name: Visites
-description: Une visite est l'action d'une personne qui vient sur un site Web pour
-  la première fois ou si elle visite une page plus de 30 minutes après la dernière
-  page vue, et toutes les informations concernant cette visite.
+description: Une visite est l'action d'une personne qui vient sur un site Web pour la première fois ou si elle visite une page plus de 30 minutes après la dernière page vue, et toutes les informations concernant cette visite.
 meta:
   columns:
     index:
@@ -10,58 +8,53 @@ meta:
       description: Index
     date:
       name: Date
-      description: Date
+      description: Date des visites
     nb_visits:
       name: Nombre de visiteurs
-      description: Nombre de visiteurs
+      description: >
+        Si un visiteur vient sur votre site web pour la première fois ou s'il visite une page plus de 30 minutes après sa dernière vue, ce sera enregistré comme une nouvelle visite
     nb_uniq_visitors:
       name: Nombre de visiteurs uniques
-      description: Nombre de visiteurs uniques
+      description: >
+        Le nombre de visiteurs non dupliqués venant sur votre site web. Chaque utilisateur n'est compté qu'une seule fois, même s'il visite le site plusieurs fois par jour
     bounce_count:
       name: Nombre de rebonds
-      description: Nombre de rebonds
+      description: >
+        Nombre de visites qui n'ont duré qu'une seule page. Un rebond est équivalent à un visiteur a quitté le site après avoir consulté uniquement cette page
     bounce_rate:
       name: Taux de rebond
-      description: Taux de rebond
+      description: >
+        Taux de rebond i.e des visiteurs qui rebondissent sur la plateforme par rapport au nombre total de visiteurs
     bounce_rate_new:
       name: Taux de rebond des nouveaux visiteurs
-      description: Taux de rebond des nouveaux visiteurs
+      description: >
+        Taux de rebond i.e ratio des visiteurs qui rebondissent sur la plateforme versus le nombre total de nouveaux visiteurs
     sum_visit_length:
       name: Somme de la durée des visites
-      description: Somme de la durée des visites
+      description: La somme du temps écoulé de chaque visite
     nb_visits_new:
       name: Nombre de nouvelles visites
       description: Nombre de nouvelles visites
     Referrers_visitorsFromSearchEngines:
       name: Nombre de visiteurs provenant des moteurs de recherche
-      description: Nombre de visiteurs provenant des moteurs de recherche
+      description: >
+        Si un visiteur vient sur votre site web pour la première fois à partir d'un moteur de recherche ou s'il visite une page plus de 30 minutes après sa dernière page
     Referrers_visitorsFromSocialNetworks:
       name: Nombre de visiteurs provenant des réseaux sociaux
-      description: Nombre de visiteurs provenant des réseaux sociaux
+      description: >
+        Si un visiteur vient sur votre site web pour la première fois à partir d'un réseau social ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromDirectEntry:
       name: Nombre de visiteurs provenant d'une entrée directe
-      description: Nombre de visiteurs provenant d'une entrée directe
+      description: >
+        Si un visiteur vient sur votre site web pour la première fois directement via l'URL ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromWebsites:
       name: Nombre de visiteurs provenant de sites web
-      description: Nombre de visiteurs provenant de sites web
+      description: >
+        Si un visiteur vient sur votre site web pour la première fois à partir d'un autre site web ou s'il visite une page plus de 30 minutes après sa dernière vue
     Referrers_visitorsFromCampaigns:
-      name: Nombre de visiteurs provenant de campagnes
-      description: Nombre de visiteurs provenant de campagnes
-    Referrers_visitorsFromSearchEngines_percent:
-      name: Pourcentage de visiteurs provenant des moteurs de recherche
-      description: Pourcentage de visiteurs provenant des moteurs de recherche
-    Referrers_visitorsFromSocialNetworks_percent:
-      name: Pourcentage de visiteurs provenant des réseaux sociaux
-      description: Pourcentage de visiteurs provenant des réseaux sociaux
-    Referrers_visitorsFromDirectEntry_percent:
-      name: Pourcentage de visiteurs provenant d'une entrée directe
-      description: Pourcentage de visiteurs provenant d'une entrée directe
-    Referrers_visitorsFromWebsites_percent:
-      name: Pourcentage de visiteurs provenant de sites web
-      description: Pourcentage de visiteurs provenant de sites web
-    Referrers_visitorsFromCampaigns_percent:
       name: Pourcentage de visiteurs provenant de campagnes
-      description: Pourcentage de visiteurs provenant de campagnes
+      description: >
+        Si un visiteur vient sur votre site web pour la première fois depuis une campagne ou s'il visite une page plus de 30 minutes après sa dernière vue
     nb_downloads:
       name: Nombre de téléchargements
-      description: Nombre de téléchargements
+      description: Nombre de fois où le lien a été cliqué

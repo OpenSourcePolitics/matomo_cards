@@ -1,32 +1,33 @@
 ---
 name: Référents
-description: Informations concernant les visites liées à un référent (un référent
-  désigne un canal à partir duquel un visiteur vient sur un site web. Les référents
-  sont classés en différents types, tels que les moteurs de recherche, les réseaux
-  sociaux, l'entrée directe...)
+description: Informations concernant les visites liées à un référent (un référent désigne un canal à partir duquel un visiteur vient sur un site web. Les référents sont classés en différents types, tels que les moteurs de recherche, les réseaux sociaux, l'entrée directe...)
 meta:
   columns:
     label:
-      name: Label
-      description: Label
+      name: Libellé
+      description: Libellé du référent
     nb_uniq_visitors:
       name: Nombre de visiteurs uniques
-      description: Nombre de visiteurs uniques
+      description: >
+        Le nombre de visiteurs non dupliqués venant sur votre site web. Chaque utilisateur n'est compté qu'une seule fois, même s'il visite le site plusieurs fois par jour
     nb_visits:
       name: Nombre de visites
-      description: Nombre de visites
+      description: >
+        Si un visiteur vient sur votre site web pour la première fois ou s'il visite une page plus de 30 minutes après sa dernière vue, cela sera enregistré comme une visite
     nb_actions:
       name: Nombre d'actions
-      description: Nombre d'actions
+      description: >
+        Le nombre d'actions effectuées par vos visiteurs. Les actions peuvent être des pages vues, des recherches internes sur le site, des téléchargements ou des liens sortants
     sum_visit_length:
       name: Somme de la durée des visites
-      description: Somme de la durée des visites
+      description: La somme du temps écoulé de chaque visite
     bounce_count:
       name: Nombre de rebonds
-      description: Nombre de rebonds
+      description: >
+        Nombre de visites qui ont commencé et se sont terminées sur cette page. Cela signifie que le visiteur a quitté le site après avoir consulté uniquement cette page
     sub_type:
-      name: Canal d'acquisition général
-      description: Canal d'acquisition général
+      name: Catégorie du référent
+      description: Catégorie à laquelle appartient le référent
     date:
       name: Date
       description: Date
