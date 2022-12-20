@@ -12,6 +12,6 @@ query:
         bounce_count,
         sub_type, 
         date
-    from referrers
+    from matomo.referrers
     where sub_type is not null
   info:
