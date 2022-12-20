@@ -1,0 +1,20 @@
+---
+name: Téléchargements
+description: Donne des informations sur les téléchargements faits sur la plateforme
+meta:
+  columns:
+    label:
+      name: Libellé
+      description: Nom du fichier téléchargé
+    nb_visits:
+      name: Nombre de visites
+      description: Nombre de fois qu'un visiteur unique a téléchargé le fichier
+    nb_hits:
+      name: Nombre de hits
+      description: Number of time que le fichier a été téléchargé, en comptant les duplicats
+    url:
+      name: URL
+      description: URL du fichier
+    date:
+      name: Date
+      description: Date odu téléchargement
