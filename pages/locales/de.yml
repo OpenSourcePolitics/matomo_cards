@@ -5,16 +5,16 @@ viz_settings:
 meta:
   columns:
     nb_visits:
-      name: Number of visits
+      name: Unique page views
       description: >
-        Number of visits
+        If a visitor comes to your page for the first time or if they visit this page more than 30 minutes after their last page view, this will be recorded as a visit.
     nb_uniq_visitors:
-      name: Number of unique visitors
+      name: Unique visitors
       description: >
-        Number of unique visitors
+        The number of unduplicated visitors that have seen this page. Every user is only counted once, even if they visit the page multiple times a day
     nb_hits:
-      name: Number of hits
-      description: Number of hits
+      name: Page views
+      description: The number of times this page was visited. This field count all visits, even of recurring visitors.
     sum_time_spent:
       name: Sum of time spent on the page
       description: Sum of time spent
