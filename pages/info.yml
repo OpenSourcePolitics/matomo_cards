@@ -4,20 +4,20 @@ query:
   model:  true
   sql:  |
     select 
-        nb_visits, 
-        nb_uniq_visitors,
+        nb_visits::int, 
+        nb_uniq_visitors::int,
         nb_hits,
         sum_time_spent,
-        exit_nb_uniq_visitors,
-        exit_nb_visits,
+        coalesce(exit_nb_uniq_visitors::int, 0) as exit_nb_uniq_visitors,
+        coalesce(exit_nb_visits::int, 0) as exit_nb_visits,
         avg_time_on_page, 
         bounce_rate, 
         exit_rate,
         url,
         date,
-        entry_nb_uniq_visitors,
-        entry_nb_visits,
-        entry_bounce_count,
+        coalesce(entry_nb_uniq_visitors::int, 0) as entry_nb_uniq_visitors,
+        coalesce(entry_nb_visits::int, 0) as entry_nb_visits,
+        coalesce(entry_bounce_count::int, 0) as entry_bounce_count,
         label
     from matomo.pages
   info:
