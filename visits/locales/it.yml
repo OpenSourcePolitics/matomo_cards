@@ -35,26 +35,6 @@ meta:
     nb_visits_new:
       name: Number of new visits
       description: The number of new visits
-    Referrers_visitorsFromSearchEngines:
-      name: Number of visitors from search engines
-      description: >
-        If a visitor comes to your website for the first time from a search engine or if they visit a page more than 30 minutes after their last page view
-    Referrers_visitorsFromSocialNetworks:
-      name: Number of visitors from social networks
-      description: >
-        If a visitor comes to your website for the first time from a social network or if they visit a page more than 30 minutes after their last page view
-    Referrers_visitorsFromDirectEntry:
-      name: Number of visitors from direct entry
-      description: >
-        If a visitor comes to your website for the first time from the website url directly or if they visit a page more than 30 minutes after their last page view
-    Referrers_visitorsFromWebsites:
-      name: Number of visitors from websites
-      description: >
-        If a visitor comes to your website for the first time from another website or if they visit a page more than 30 minutes after their last page view
-    Referrers_visitorsFromCampaigns:
-      name: Number of visitors from campains
-      description: >
-        If a visitor comes to your website for the first time from a campain or if they visit a page more than 30 minutes after their last page view
     nb_downloads:
       name: Number of downloads
       description: Number of times the link was clicked
