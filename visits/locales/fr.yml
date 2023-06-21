@@ -35,26 +35,6 @@ meta:
     nb_visits_new:
       name: Nombre de nouvelles visites
       description: Nombre de nouvelles visites
-    Referrers_visitorsFromSearchEngines:
-      name: Nombre de visiteurs provenant des moteurs de recherche
-      description: >
-        Si un visiteur vient sur votre site web pour la première fois à partir d'un moteur de recherche ou s'il visite une page plus de 30 minutes après sa dernière page
-    Referrers_visitorsFromSocialNetworks:
-      name: Nombre de visiteurs provenant des réseaux sociaux
-      description: >
-        Si un visiteur vient sur votre site web pour la première fois à partir d'un réseau social ou s'il visite une page plus de 30 minutes après sa dernière vue
-    Referrers_visitorsFromDirectEntry:
-      name: Nombre de visiteurs provenant d'une entrée directe
-      description: >
-        Si un visiteur vient sur votre site web pour la première fois directement via l'URL ou s'il visite une page plus de 30 minutes après sa dernière vue
-    Referrers_visitorsFromWebsites:
-      name: Nombre de visiteurs provenant de sites web
-      description: >
-        Si un visiteur vient sur votre site web pour la première fois à partir d'un autre site web ou s'il visite une page plus de 30 minutes après sa dernière vue
-    Referrers_visitorsFromCampaigns:
-      name: Pourcentage de visiteurs provenant de campagnes
-      description: >
-        Si un visiteur vient sur votre site web pour la première fois depuis une campagne ou s'il visite une page plus de 30 minutes après sa dernière vue
     nb_downloads:
       name: Nombre de téléchargements
       description: Nombre de fois où le lien a été cliqué
