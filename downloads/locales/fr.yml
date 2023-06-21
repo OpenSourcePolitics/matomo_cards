@@ -11,7 +11,7 @@ meta:
       description: Nombre de fois qu'un visiteur unique a téléchargé le fichier
     nb_hits:
       name: Nombre de hits
-      description: Number of time que le fichier a été téléchargé, en comptant les duplicats
+      description: Nombre de fois que le fichier a été téléchargé, en comptant les dupliquas
     url:
       name: URL
       description: URL du fichier

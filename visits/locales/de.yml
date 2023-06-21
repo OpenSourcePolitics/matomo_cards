@@ -35,26 +35,6 @@ meta:
     nb_visits_new:
       name: Number of new visits
       description: Number of new visits
-    Referrers_visitorsFromSearchEngines:
-      name: Number of visitors from search engines
-      description: >
-        Number of visitors from search engines
-    Referrers_visitorsFromSocialNetworks:
-      name: Number of visitors from social networks
-      description: >
-        Number of visitors from social networks
-    Referrers_visitorsFromDirectEntry:
-      name: Number of visitors from direct entry
-      description: >
-        Number of visitors from direct entry
-    Referrers_visitorsFromWebsites:
-      name: Number of visitors from websites
-      description: >
-        Number of visitors from websites
-    Referrers_visitorsFromCampaigns:
-      name: Number of visitors from campains
-      description: >
-        Number of visitors from campains
     nb_downloads:
       name: Number of downloads
       description: Number of downloads

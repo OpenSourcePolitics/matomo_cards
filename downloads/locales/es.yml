@@ -1,0 +1,20 @@
+---
+name: Download
+description: Gives information about downloads made on the website
+meta:
+  columns:
+    label:
+      name: Label
+      description: Name of the file downloaded
+    nb_visits:
+      name: Number of visits
+      description: Number of time a unique visitor download the file
+    nb_hits:
+      name: Number of hits
+      description: Number of time the file was downloaded, duplicate download included
+    url:
+      name: URL
+      description: URL of the file
+    date:
+      name: Date
+      description: Date of download
